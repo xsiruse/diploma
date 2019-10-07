@@ -167,9 +167,7 @@ def main():
 
 if __name__ == '__main__':
     try:
-        # print(user1.execute('return {"friends": API.friends.get(), "groups": API.groups.get()};'))
         main()
-
     except ValueError:
         print('entered userID or login has not found in VK, please try one more time ')
     finally:
